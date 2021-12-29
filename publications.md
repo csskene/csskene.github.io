@@ -10,6 +10,22 @@ permalink: /publications/
 \
 My publications are collected here
 
+* **Skene, C.S.**, Taira, K., 'Phase reduction analysis of periodic thermoacoustic oscillations in a Rijke tube', Journal of Fluid Mechanics, 2022 [DOI](https://www.doi.org/10.1017/jfm.2021.1093), [Code](https://github.com/csskene/phase-reduction_Rijke-tube)
+  <details><summary markdown="span">BibTex reference</summary>
+
+  ```
+  @article{skene_taira_2022,
+  title={Phase-reduction analysis of periodic thermoacoustic oscillations in a Rijke tube},
+  volume={933},
+  DOI={10.1017/jfm.2021.1093},
+  journal={Journal of Fluid Mechanics},
+  publisher={Cambridge University Press},
+  author={Skene, Calum S. and Taira, Kunihiko},
+  year={2022},
+  pages={A35}}
+  ```
+  </details>
+
 * **Skene, C.S.**, Eggl, M.F., and Schmid, P.J., 'A parallel-in-time approach for accelerating direct-adjoint studies', Journal of Computational Physics, 2021 [DOI](https://doi.org/10.1016/j.jcp.2020.110033), [Accepted Version](https://arxiv.org/abs/2004.00546), [Code](https://github.com/csskene/parallel-in-time_direct-adjoint)
   <details><summary markdown="span">BibTex reference</summary>
 
@@ -44,7 +60,7 @@ My publications are collected here
   ```
   </details>
 
-* **Skene, C.S.** and Schmid, P.J., 'Adjoint-based parametric sensitivity analysis for swirling M-flames', JFM, 2019 [DOI](https://doi.org/10.1017/jfm.2018.793), [Accepted Version](https://eprints.whiterose.ac.uk/173624/)
+* **Skene, C.S.** and Schmid, P.J., 'Adjoint-based parametric sensitivity analysis for swirling M-flames', Journal of Fluid Mechanics, 2019 [DOI](https://doi.org/10.1017/jfm.2018.793), [Accepted Version](https://eprints.whiterose.ac.uk/173624/)
   <details><summary markdown="span">BibTex reference</summary>
 
   ```
