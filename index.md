@@ -5,4 +5,4 @@
 layout: home
 ---
 
-I am currently a postdoc at the University of Leeds. My research interests include hydrodynamic stability, adjoint methods, astrophysical fluid dynamics, turbulence, data-driven methods, and periodic flows. In my free time I enjoy making model planes, playing the guitar, and crochet.
+I am currently a postdoc at the University of Leeds. My research interests include hydrodynamic stability, adjoint methods, astrophysical fluid dynamics, turbulence, data-driven methods, and periodic flows. In my free time I enjoy making model planes, playing the guitar, and crochet. I was recently featured in the [LIFD Early Career Researcher spotlight](https://fluids.leeds.ac.uk/2022/04/26/lifd-early-career-researcher-spotlight-calum-skene/).
