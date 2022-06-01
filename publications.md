@@ -10,6 +10,8 @@ permalink: /publications/
 \
 My publications are collected here
 
+* **Skene, C.S.**, Yeh, C.-A., Schmid, P. J., and Taira, K., 'Sparsifying the resolvent forcing mode via gradient-based optimisation', Journal of Fluid Mechanics, Accepted
+
 * **Skene, C.S.**, Taira, K., 'Phase reduction analysis of periodic thermoacoustic oscillations in a Rijke tube', Journal of Fluid Mechanics, 2022 [DOI](https://www.doi.org/10.1017/jfm.2021.1093), [Code](https://github.com/csskene/phase-reduction_Rijke-tube)
   <details><summary markdown="span">BibTex reference</summary>
 
