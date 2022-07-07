@@ -21,7 +21,7 @@ My publications are collected here along with links to the article, accepted ver
   publisher={Cambridge University Press},
   author={Skene, Calum S. and Yeh, Chi-An and Schmid, Peter J. and Taira, Kunihiko},
   year={2022},
-  pages={A52}
+  pages={A52}}
   ```
   </details>
 
