@@ -10,7 +10,20 @@ permalink: /publications/
 \
 My publications are collected here along with links to the article, accepted version, and any relevant code.
 
-* **Skene, C.S.**, Yeh, C.-A., Schmid, P. J., and Taira, K., 'Sparsifying the resolvent forcing mode via gradient-based optimisation', Journal of Fluid Mechanics, 2022 Accepted, [Code <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:1em;">](https://github.com/csskene/linear-analysis-tools)
+* **Skene, C.S.**, Yeh, C.-A., Schmid, P. J., and Taira, K., 'Sparsifying the resolvent forcing mode via gradient-based optimisation', Journal of Fluid Mechanics, 2022 [DOI <img src="https://www.doi.org/img/Logo_TM.png" style="width:1em;">](https://doi.org/10.1017/jfm.2022.519), [Code <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:1em;">](https://github.com/csskene/linear-analysis-tools)
+   <details><summary markdown="span">BibTex reference</summary>
+   ```
+  @article{skene_yeh_schmid_taira_2022,
+  title={Sparsifying the resolvent forcing mode via gradient-based optimisation},
+  volume={944},
+  DOI={10.1017/jfm.2022.519},
+  journal={Journal of Fluid Mechanics},
+  publisher={Cambridge University Press},
+  author={Skene, Calum S. and Yeh, Chi-An and Schmid, Peter J. and Taira, Kunihiko},
+  year={2022},
+  pages={A52}
+  ```
+  </details>
 
 * **Skene, C.S.**, Taira, K., 'Phase reduction analysis of periodic thermoacoustic oscillations in a Rijke tube', Journal of Fluid Mechanics, 2022 [DOI <img src="https://www.doi.org/img/Logo_TM.png" style="width:1em;">](https://www.doi.org/10.1017/jfm.2021.1093), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/181924/), [Code <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:1em;">](https://github.com/csskene/phase-reduction_Rijke-tube)
   <details><summary markdown="span">BibTex reference</summary>
