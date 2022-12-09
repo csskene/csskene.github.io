@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Adjoint tutorial 1 - Eigenvalue sensitivity"
-date:   2022-12-12 12:00:00 +0100
-categories: science
+date:   2022-12-12 12:00:00 +0000
+categories: tutorial
 ---
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { extensions: ["amsmath.js"], equationNumbers: { autoNumber: "all" } } }); </script>
@@ -614,4 +614,4 @@ print('Number of function evaluations =',sol.nfev)
     Wall time: 3.96 s
 
 
-The critical Reynolds number for $\alpha=1$ and $\beta=0$, $Re_c \approx 5814.8$, is obtained using 16 eigenvalue solves.
+The critical Reynolds number for $\alpha=1$ and $\beta=0$, $Re_c \approx 5814.8$, is obtained using 32 eigenvalue solves (16 direct and 16 adjoint).

@@ -46,6 +46,12 @@ minima:
     - { platform: github,  user_url: "https://github.com/csskene" }
     - { platform: twitter, user_url: "https://twitter.com/CalumSkene" }
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=IdiShGwAAAAJ&hl=en" }
+
+header_pages:
+  - preprints.md
+  - publications.md
+  - tutorials.md
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
