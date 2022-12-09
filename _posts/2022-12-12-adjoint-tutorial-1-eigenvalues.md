@@ -101,11 +101,6 @@ Although we formulated the adjoint discretely, it can be formulated continuously
 
 With the continuous direct and adjoint problems we're now ready to implement the two eigenvalue calculations in Dedalus! The jupyter notebook for this tutorial is available [here](https://github.com/csskene/adjoint_tutorial/blob/main/1-eigenvalue.ipynb)).
 
-## Numerical implementation
-
-To solve the eigenvalue problems we will use Dedalus v2 along with the eigentools package.
-
-
 ```python
 import time
 import numpy as np
@@ -116,6 +111,21 @@ from dedalus.core import field
 from scipy import optimize
 
 from eigentools import Eigenproblem, CriticalFinder
+```
+
+
+```python
+# Plot settings for blog post
+# params = {"ytick.color" : "grey",
+#           "xtick.color" : "grey",
+#           "text.color" : "grey",
+#           "axes.labelcolor" : "grey",
+#           "axes.edgecolor" : "grey",
+#           "axes.facecolor" : "None",
+#           "legend.facecolor" : "None",
+#           "legend.edgecolor" : "grey"
+#          }
+# plt.rcParams.update(params)
 ```
 
 ### Define the parameters
@@ -150,15 +160,12 @@ U.set_scales(1)
 Uy.set_scales(1)
 plt.plot(U['g'].real,y,label=r'$u$')
 plt.plot(Uy['g'].real,y,label=r'$\partial_y u$')
-plt.ylabel(r'y')
+plt.ylabel(r'$y$')
 plt.ylim([0,2])
-plt.legend()
+plt.legend();
+# plt.savefig("base_flow.png",dpi=150,transparent=True)
 ```
 
-
-
-
-    <matplotlib.legend.Legend at 0x103b4b9d0>
 
 
 
@@ -221,10 +228,10 @@ problemAdjoint.add_bc("left(w) = 0")
 problemAdjoint.add_bc("right(w) = 0")
 ```
 
-    2022-12-09 13:37:16,452 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
-    2022-12-09 13:37:16,481 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
-    CPU times: user 50 ms, sys: 4.22 ms, total: 54.2 ms
-    Wall time: 55 ms
+    2022-12-09 15:32:08,691 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+    2022-12-09 15:32:08,722 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+    CPU times: user 52.2 ms, sys: 5.18 ms, total: 57.4 ms
+    Wall time: 58.7 ms
 
 
 ### Solve the eigenvalue problems
@@ -239,10 +246,10 @@ EP_adjoint = Eigenproblem(problemAdjoint)
 EP_adjoint.solve(sparse=False)
 ```
 
-    2022-12-09 13:37:16,514 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
-    2022-12-09 13:37:58,136 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
-    CPU times: user 1min 22s, sys: 978 ms, total: 1min 23s
-    Wall time: 1min 23s
+    2022-12-09 15:32:08,760 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+    2022-12-09 15:32:49,056 problems 0/1 INFO :: Solving EVP with homogeneity tolerance of 1.000e-10
+    CPU times: user 1min 19s, sys: 496 ms, total: 1min 19s
+    Wall time: 1min 19s
 
 
 ### Plot the eigenvalues
@@ -259,13 +266,10 @@ ax[0].set_title(r'Direct')
 ax[1].plot(EP_adjoint.evalues.imag,EP_adjoint.evalues.real,'x')
 ax[1].set_ylim([-1,0.1])
 ax[1].set_xlabel(r'Imag($\omega$)')
-ax[1].set_title(r'Adjoint')
+ax[1].set_title(r'Adjoint');
+# plt.savefig("eigenvalues.png",dpi=150,transparent=True)
 ```
 
-
-
-
-    Text(0.5, 1.0, 'Adjoint')
 
 
 
@@ -340,12 +344,10 @@ ax[1].plot(y,most_unstable_adjoint['w']['g'].real,label=r'$w$')
 ax[1].legend()
 ax[1].set_xlim([0,2])
 ax[1].set_title('Adjoint')
+ax[1].set_xlabel(r'$y$');
+# plt.savefig("eigenvectors.png",dpi=150,transparent=True)
 ```
 
-
-
-
-    Text(0.5, 1.0, 'Adjoint')
 
 
 
@@ -477,10 +479,10 @@ for Re_v in Reynolds:
     norm = (np.conj(most_unstable_adjoint['u'])*most_unstable_direct['u']+np.conj(most_unstable_adjoint['v'])*most_unstable_direct['v']+np.conj(most_unstable_adjoint['w'])*most_unstable_direct['w']).evaluate().integrate()['g'][0]
 
     u_lap, v_lap, w_lap = lap(most_unstable_direct['u'],most_unstable_direct['v'],most_unstable_direct['w'])
-    dldRe = (np.conj(most_unstable_adjoint['u'])*u_lap+np.conj(most_unstable_adjoint['v'])*v_lap+np.conj(most_unstable_adjoint['w'])*w_lap).evaluate().integrate()['g'][0]
-    dldRe *= -1./Re_v**2
+    domdRe = (np.conj(most_unstable_adjoint['u'])*u_lap+np.conj(most_unstable_adjoint['v'])*v_lap+np.conj(most_unstable_adjoint['w'])*w_lap).evaluate().integrate()['g'][0]
+    domdRe *= -1./Re_v**2
     
-    gradients.append(dldRe)
+    gradients.append(domdRe.real)
 ```
 
     Solving for Re =   500.00
@@ -493,8 +495,8 @@ for Re_v in Reynolds:
     Solving for Re =  9444.44
     Solving for Re = 10722.22
     Solving for Re = 12000.00
-    CPU times: user 2.41 s, sys: 57.7 ms, total: 2.47 s
-    Wall time: 2.51 s
+    CPU times: user 2.22 s, sys: 40 ms, total: 2.26 s
+    Wall time: 2.27 s
 
 
 ### Plot the cubic interpolation
@@ -511,17 +513,10 @@ for i in range(len(growths)-1):
     plt.xlabel(r'Re')
     plt.ylabel(r'Max growth rate')
 plt.plot(Reynolds[-1],growths[-1],'C1x')
-plt.legend(['Without cubic interpolation','With cubic interpolation'])
+plt.legend(['Without cubic interpolation','With cubic interpolation']);
+# plt.savefig("growth_rates.png",dpi=150,transparent=True)
 ```
 
-    /Users/calumskene/opt/miniconda3/envs/dedalus2/lib/python3.10/site-packages/matplotlib/cbook/__init__.py:1298: ComplexWarning: Casting complex values to real discards the imaginary part
-      return np.asarray(x, float)
-
-
-
-
-
-    <matplotlib.legend.Legend at 0x10de2bb50>
 
 
 
@@ -615,8 +610,8 @@ print('Number of function evaluations =',sol.nfev)
     5814.8  5.90e-18  -8.80e-15
     Re_c = 5814.8
     Number of function evaluations = 16
-    CPU times: user 4.72 s, sys: 123 ms, total: 4.84 s
-    Wall time: 4.97 s
+    CPU times: user 3.9 s, sys: 63.8 ms, total: 3.96 s
+    Wall time: 3.96 s
 
 
 The critical Reynolds number for $\alpha=1$ and $\beta=0$, $Re_c \approx 5814.8$, is obtained using 16 eigenvalue solves.
