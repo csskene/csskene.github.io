@@ -37,7 +37,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 remote_theme: jekyll/minima
 # theme: minima
 plugins:
-  # - jekyll-feed
+  - jekyll-feed
   - jekyll-remote-theme
 
 minima:
