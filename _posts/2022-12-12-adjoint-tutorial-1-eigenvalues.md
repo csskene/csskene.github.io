@@ -361,9 +361,17 @@ It is clear that even though the eigenvalues of the two operators are the same, 
 
 # Sensitivity analysis
 
-With the direct and adjoint mode calculated, let us now use our adjoint formula $\delta \omega  = \langle \mathbf{u}^\dagger,\delta \mathcal{A}\mathbf{u}\rangle$ to assess how the eigenvalue will change if the Reynolds number is changed. The formula tells us that 
-$$\frac{\partial\omega}{\partial Re}  = \langle \mathbf{u}^\dagger,\frac{\partial \mathcal{A}}{\partial Re}\mathbf{u}\rangle.$$ We already know $\mathbf{u}^\dagger$ and $\mathbf{u}$, so all that remains is to calculate the operator $\frac{\partial \mathcal{A}}{\partial Re}$, which is easily found via differentiation to be
-$$ \frac{\partial \mathcal{A}}{\partial Re}=-\frac{1}{Re^2}\left(\partial_{yy}-\left(\alpha^2+\beta^2\right)\right).$$
+With the direct and adjoint mode calculated, let us now use our adjoint formula $\delta \omega  = \langle \mathbf{u}^\dagger,\delta \mathcal{A}\mathbf{u}\rangle$ to assess how the eigenvalue will change if the Reynolds number is changed. The formula tells us that
+
+$$
+\frac{\partial\omega}{\partial Re}  = \langle \mathbf{u}^\dagger,\frac{\partial \mathcal{A}}{\partial Re}\mathbf{u}\rangle.
+$$ 
+
+We already know $\mathbf{u}^\dagger$ and $\mathbf{u}$, so all that remains is to calculate the operator $\frac{\partial \mathcal{A}}{\partial Re}$, which is easily found via differentiation to be
+
+$$
+\frac{\partial \mathcal{A}}{\partial Re}=-\frac{1}{Re^2}\left(\partial_{yy}-\left(\alpha^2+\beta^2\right)\right).
+$$
 
 We can now calculate this using Dedalus
 
