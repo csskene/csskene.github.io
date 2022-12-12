@@ -48,8 +48,8 @@ minima:
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=IdiShGwAAAAJ&hl=en" }
 
 header_pages:
-  - preprints.md
   - publications.md
+  - preprints.md
   - tutorials.md
 
 # Exclude from processing.

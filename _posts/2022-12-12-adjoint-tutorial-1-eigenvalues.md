@@ -99,7 +99,7 @@ Although we formulated the adjoint discretely, it can be formulated continuously
 -i\alpha u^\dagger - \partial_y v^\dagger - i\beta w^\dagger &=& 0.
 \end{eqnarray}
 
-With the continuous direct and adjoint problems we're now ready to implement the two eigenvalue calculations in Dedalus! The jupyter notebook for this tutorial is available [here](https://github.com/csskene/adjoint_tutorial/blob/main/1-eigenvalue.ipynb)).
+With the continuous direct and adjoint problems we're now ready to implement the two eigenvalue calculations in Dedalus! The jupyter notebook for this tutorial is available [here](https://github.com/csskene/adjoint_tutorial/blob/main/1-eigenvalue.ipynb).
 
 ```python
 import time
@@ -401,7 +401,7 @@ print('dω/dRe =',domdRe)
     dω/dRe = (7.793373241811189e-07+5.431301239086212e-06j)
 
 
-The result shows us that increasing the Reynolds number will increase both the growth rate and frequency of the mode. Lets check by calculating the eigenvalue at $Re=8500$.
+The result shows us that increasing the Reynolds number will increase both the growth rate and frequency of the mode. Let's check by calculating the eigenvalue at $Re=8500$.
 
 
 ```python
@@ -418,7 +418,7 @@ print('Prediction using linear interpolation = ',old_most_unstable+500*domdRe)
     Prediction using linear interpolation =  (0.0030540790332086887-0.2443594095554431j)
 
 
-As we can see, the adjoint gives a reasonable prediction of the new eigenvalue. Now lets use this gradient information in a couple of different ways. 
+As we can see, the adjoint gives a reasonable prediction of the new eigenvalue. Now let's use this gradient information in a couple of different ways. 
 
 ## Interpolation
 
