@@ -62,7 +62,7 @@ $$
 showing that as long as we choose $\mathbf{q}^\dagger$ such that
 
 $$
-\mathbf{A}^H\mathbf{q}^\dagger=\bar{\lambda}\mathbf{q},
+\mathbf{A}^H\mathbf{q}^\dagger=\bar{\lambda}\mathbf{q}^\dagger,
 $$
 
 then this term is zero for any $\boldsymbol{\delta}\mathbf{q}$. This eigenvalue problem for $\mathbf{q}^\dagger$ is known as the adjoint eigenvalue problem, with the vector $\mathbf{q}^\dagger$ being the adjoint eigenvector. By solving this additional eigenvalue problem we then get
@@ -82,7 +82,7 @@ From this we can see some general properties of the adjoint
 
 The rest of this notebook demonstrates the adjoint eigenvalue problem for plane Poiseuille flow using Dedalus v2 and eigentools.
 
-Plane-Poiseuille flow is an exact solution to the Navier stokes equations where a pressure gradient drives a flow between two flat plates. In non-dimensional terms we have the solution $\mathbf{U}=(U,V,W)^T=(y(2-y),0,0)^T$, with $x$-pressure gradient $\partial_x P=2/Re$. No-slip boundary conditions are satisfied on the plates situated at $y=0$ and $y=2$. To investigate the stability of this flow to perturbations we note that it is a parallel flow, and therefore perturbations can be written in the form $\mathbf{u}'=\mathbf{u}(y)\exp(\omega t + i(\alpha x + \beta y))$. Linearising the Navier-stokes equation then gives an equation for $\mathbf{u}$ as
+Plane-Poiseuille flow is an exact solution to the Navier stokes equations where a pressure gradient drives a flow between two flat plates. In non-dimensional terms we have the solution $\mathbf{U}=(U,V,W)^T=(y(2-y),0,0)^T$, with $x$-pressure gradient $\partial_x P=2/Re$. No-slip boundary conditions are satisfied on the plates situated at $y=0$ and $y=2$. To investigate the stability of this flow to perturbations we note that it is a parallel flow, and therefore perturbations can be written in the form $\mathbf{u}'=\mathbf{u}(y)\exp(\omega t + i(\alpha x + \beta z))$. Linearising the Navier-stokes equation then gives an equation for $\mathbf{u}$ as
 \begin{eqnarray}
 \omega u +i\alpha U u + v\partial_y U &=& -i\alpha p + \frac{1}{Re}(\partial_{yy}-(\alpha^2+\beta^2))u,\newline
 \omega v +i\alpha U v  &=& -\partial_y p+\frac{1}{Re}(\partial_{yy}-(\alpha^2+\beta^2))v,\newline
