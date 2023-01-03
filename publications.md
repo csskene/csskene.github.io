@@ -10,6 +10,8 @@ permalink: /publications/
 \
 My publications are collected here along with links to the article, accepted version, and any relevant code.
 
+* Kojima, Y., **Skene, C.S.**, Yeh, C.-A., Taira, K., and Kameda, M., 'On the origin of quadrupole sound from a two-dimensional airfoil trailing edge', Journal of Fluid Mechanics, 2023 (accepted)
+
 * **Skene, C.S.**, Yeh, C.-A., Schmid, P. J., and Taira, K., 'Sparsifying the resolvent forcing mode via gradient-based optimisation', Journal of Fluid Mechanics, 2022 [DOI <img src="https://www.doi.org/img/Logo_TM.png" style="width:1em;">](https://doi.org/10.1017/jfm.2022.519), [Code <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:1em;">](https://github.com/csskene/linear-analysis-tools)
    <details><summary markdown="span">BibTex reference</summary>
    ```
