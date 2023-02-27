@@ -10,9 +10,22 @@ permalink: /publications/
 \
 My publications are collected here along with links to the article, accepted version, and any relevant code.
 
-* Kojima, Y., **Skene, C.S.**, Yeh, C.-A., Taira, K., and Kameda, M., 'On the origin of quadrupole sound from a two-dimensional airfoil trailing edge', Journal of Fluid Mechanics, 2023 (accepted)
+* Kojima, Y., **Skene, C.S.**, Yeh, C.-A., Taira, K., and Kameda, M., 'On the origin of quadrupole sound from a two-dimensional airfoil trailing edge', Journal of Fluid Mechanics, 2023 [DOI (open access)<img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1017/jfm.2023.37), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/niktFluid/OF-TEnoise-NACA0012)
+  <details><summary markdown="span">BibTex reference</summary>
+   ```
+  @article{kojima_skene_yeh_taira_kameda_2023, 
+  title={On the origin of quadrupole sound from a two-dimensional aerofoil trailing edge}, 
+  volume={958}, 
+  DOI={10.1017/jfm.2023.37}, 
+  journal={Journal of Fluid Mechanics}, 
+  publisher={Cambridge University Press}, 
+  author={Kojima, Yoimi and Skene, Calum S. and Yeh, Chi-An and Taira, Kunihiko and Kameda, Masaharu}, 
+  year={2023}, 
+  pages={A3}}
+  ```
+  </details>
 
-* **Skene, C.S.**, Yeh, C.-A., Schmid, P. J., and Taira, K., 'Sparsifying the resolvent forcing mode via gradient-based optimisation', Journal of Fluid Mechanics, 2022 [DOI <img src="https://www.doi.org/img/Logo_TM.png" style="width:1em;">](https://doi.org/10.1017/jfm.2022.519), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/188910/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/linear-analysis-tools)
+* **Skene, C.S.**, Yeh, C.-A., Schmid, P. J., and Taira, K., 'Sparsifying the resolvent forcing mode via gradient-based optimisation', Journal of Fluid Mechanics, 2022 [DOI <img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1017/jfm.2022.519), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/188910/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/linear-analysis-tools)
    <details><summary markdown="span">BibTex reference</summary>
    ```
   @article{skene_yeh_schmid_taira_2022,
@@ -27,7 +40,7 @@ My publications are collected here along with links to the article, accepted ver
   ```
   </details>
 
-* **Skene, C.S.**, Taira, K., 'Phase reduction analysis of periodic thermoacoustic oscillations in a Rijke tube', Journal of Fluid Mechanics, 2022 [DOI <img src="https://www.doi.org/img/Logo_TM.png" style="width:1em;">](https://www.doi.org/10.1017/jfm.2021.1093), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/181924/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/phase-reduction_Rijke-tube)
+* **Skene, C.S.**, Taira, K., 'Phase reduction analysis of periodic thermoacoustic oscillations in a Rijke tube', Journal of Fluid Mechanics, 2022 [DOI <img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://www.doi.org/10.1017/jfm.2021.1093), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/181924/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/phase-reduction_Rijke-tube)
   <details><summary markdown="span">BibTex reference</summary>
 
   ```
@@ -43,7 +56,7 @@ My publications are collected here along with links to the article, accepted ver
   ```
   </details>
 
-* **Skene, C.S.**, Eggl, M.F., and Schmid, P.J., 'A parallel-in-time approach for accelerating direct-adjoint studies', Journal of Computational Physics, 2021 [DOI <img src="https://www.doi.org/img/Logo_TM.png" style="width:1em;">](https://doi.org/10.1016/j.jcp.2020.110033), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/173644/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/parallel-in-time_direct-adjoint)
+* **Skene, C.S.**, Eggl, M.F., and Schmid, P.J., 'A parallel-in-time approach for accelerating direct-adjoint studies', Journal of Computational Physics, 2021 [DOI <img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1016/j.jcp.2020.110033), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/173644/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/parallel-in-time_direct-adjoint)
   <details><summary markdown="span">BibTex reference</summary>
 
   ```
@@ -57,7 +70,7 @@ My publications are collected here along with links to the article, accepted ver
   ```
   </details>
 
-* **Skene, C.S.**, Qadri, U.A., and Schmid, P.J., 'Open-loop control of a global instability in a swirling jet by harmonic forcing: A weakly nonlinear analysis', Phys. Rev. Fluids, 2020 [DOI <img src="https://www.doi.org/img/Logo_TM.png" style="width:1em;">](https://doi.org/10.1103/physrevfluids.5.053901), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/173625/)
+* **Skene, C.S.**, Qadri, U.A., and Schmid, P.J., 'Open-loop control of a global instability in a swirling jet by harmonic forcing: A weakly nonlinear analysis', Phys. Rev. Fluids, 2020 [DOI <img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1103/physrevfluids.5.053901), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/173625/)
   <details><summary markdown="span">BibTex reference</summary>
 
   ```
@@ -77,7 +90,7 @@ My publications are collected here along with links to the article, accepted ver
   ```
   </details>
 
-* **Skene, C.S.** and Schmid, P.J., 'Adjoint-based parametric sensitivity analysis for swirling M-flames', Journal of Fluid Mechanics, 2019 [DOI <img src="https://www.doi.org/img/Logo_TM.png" style="width:1em;">](https://doi.org/10.1017/jfm.2018.793), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/173624/)
+* **Skene, C.S.** and Schmid, P.J., 'Adjoint-based parametric sensitivity analysis for swirling M-flames', Journal of Fluid Mechanics, 2019 [DOI <img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1017/jfm.2018.793), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/173624/)
   <details><summary markdown="span">BibTex reference</summary>
 
   ```
