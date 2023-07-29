@@ -10,6 +10,19 @@ permalink: /publications/
 \
 My publications are collected here along with links to the article, accepted version, and any relevant code.
 
+* **Skene, C.S.**, Tobias, S.M. 'Floquet stability and Lagrangian statistics of a non-linear time-dependent ABC dynamo', Phys. Rev. Fluids, 2023 [Preprint available here](https://www.newton.ac.uk/event/dyt2/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/ABC-dynamo_FTLE)
+  <details><summary markdown="span">BibTex reference</summary>
+  ```
+  @article{skene_tobias_2023, 
+  title={Floquet stability and Lagrangian statistics of a non-linear time-dependent {ABC} dynamo}, 
+  journal={Phys. Rev. Fluids}, 
+  author={Skene, Calum S. and Tobias, Steven M.}, 
+  year={2023},
+  notes={in press}
+  }
+  ```
+  </details>
+
 * Kojima, Y., **Skene, C.S.**, Yeh, C.-A., Taira, K., and Kameda, M., 'On the origin of quadrupole sound from a two-dimensional airfoil trailing edge', Journal of Fluid Mechanics, 2023 [DOI (open access)<img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1017/jfm.2023.37), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/niktFluid/OF-TEnoise-NACA0012)
   <details><summary markdown="span">BibTex reference</summary>
    ```
