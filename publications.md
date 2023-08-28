@@ -10,16 +10,24 @@ permalink: /publications/
 \
 My publications are collected here along with links to the article, accepted version, and any relevant code.
 
-* **Skene, C.S.**, Tobias, S.M. 'Floquet stability and Lagrangian statistics of a non-linear time-dependent ABC dynamo', Phys. Rev. Fluids, 2023 [Preprint available here](https://www.newton.ac.uk/event/dyt2/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/ABC-dynamo_FTLE)
+* **Skene, C.S.**, Tobias, S.M. 'Floquet stability and Lagrangian statistics of a nonlinear time-dependent ABC dynamo', Phys. Rev. Fluids, 2023 [DOI <img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1103/PhysRevFluids.8.083701), [Preprint available here](https://www.newton.ac.uk/event/dyt2/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/ABC-dynamo_FTLE)
   <details><summary markdown="span">BibTex reference</summary>
   ```
-  @article{skene_tobias_2023, 
-  title={Floquet stability and Lagrangian statistics of a non-linear time-dependent {ABC} dynamo}, 
-  journal={Phys. Rev. Fluids}, 
-  author={Skene, Calum S. and Tobias, Steven M.}, 
-  year={2023},
-  notes={in press}
-  }
+  @article{skene_tobias_2023,
+  title = {Floquet stability and Lagrangian statistics of a nonlinear time-dependent ABC dynamo},
+  author = {Skene, Calum S. and Tobias, Steven M.},
+  journal = {Phys. Rev. Fluids},
+  volume = {8},
+  issue = {8},
+  pages = {083701},
+  numpages = {19},
+  year = {2023},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevFluids.8.083701},
+  url = {https://link.aps.org/doi/10.1103/PhysRevFluids.8.083701}
+}
+
   ```
   </details>
 
