@@ -10,6 +10,18 @@ permalink: /publications/
 \
 My publications are collected here along with links to the article, accepted version, and any relevant code.
 
+* Mannix, P.M.,**Skene, C.S.**, Auroux, D., and Marcotte, F. 'Discrete adjoint-based control: A robust gradient descent procedure for optimisation with PDE and norm constraints', The SMAI Journal of computational mathematics, in press, 2024 [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2210.17194), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/mannixp/SphereManOpt)
+   <details><summary markdown="span">BibTex reference</summary>
+   ```
+   @article{Mannix_2024,
+   author = {Mannix, P. M. and Skene, C. S. and Auroux, D. and Marcotte, F.},
+   title = {Discrete adjoint-based control: A robust gradient descent procedure for optimisation with PDE and norm constraints},
+   publisher = {The SMAI Journal of computational mathematics, In press},
+   year = {2024}
+ }
+  ```
+  </details>
+
 * **Skene, C.S.**, Tobias, S.M. 'Floquet stability and Lagrangian statistics of a nonlinear time-dependent ABC dynamo', Phys. Rev. Fluids, 2023 [DOI (open access)<img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1103/PhysRevFluids.8.083701), [Preprint available here](https://www.newton.ac.uk/event/dyt2/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/ABC-dynamo_FTLE)
   <details><summary markdown="span">BibTex reference</summary>
   ```
