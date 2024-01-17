@@ -10,7 +10,7 @@ permalink: /publications/
 \
 My publications are collected here along with links to the article, accepted version, and any relevant code.
 
-* Mannix, P.M.,**Skene, C.S.**, Auroux, D., and Marcotte, F. 'Discrete adjoint-based control: A robust gradient descent procedure for optimisation with PDE and norm constraints', The SMAI Journal of computational mathematics, in press, 2024 [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2210.17194), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/mannixp/SphereManOpt)
+* Mannix, P.M.,**Skene, C.S.**, Auroux, D., and Marcotte, F. 'A robust, discrete-gradient descent procedure for optimisation with time-dependent PDE and norm constraints', The SMAI Journal of computational mathematics, in press, 2024 [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2210.17194), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/mannixp/SphereManOpt)
    <details><summary markdown="span">BibTex reference</summary>
    ```
    @article{Mannix_2024,
