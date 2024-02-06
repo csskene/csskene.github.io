@@ -10,7 +10,7 @@ permalink: /publications/
 \
 My publications are collected here along with links to the article, accepted version, and any relevant code.
 
-* Mannix, P.M.,**Skene, C.S.**, Auroux, D., and Marcotte, F. 'A robust, discrete-gradient descent procedure for optimisation with time-dependent PDE and norm constraints', The SMAI Journal of computational mathematics, 2024 [DOI (open access)<img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1103/PhysRevFluids.8.083701), [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2210.17194), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/mannixp/SphereManOpt)
+* Mannix, P.M.,**Skene, C.S.**, Auroux, D., and Marcotte, F. 'A robust, discrete-gradient descent procedure for optimisation with time-dependent PDE and norm constraints', The SMAI Journal of computational mathematics, 2024 [DOI (open access)<img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.5802/smai-jcm.104), [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2210.17194), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/mannixp/SphereManOpt)
    <details><summary markdown="span">BibTex reference</summary>
    ```
    @article{Mannix_2024,
