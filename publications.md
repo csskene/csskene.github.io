@@ -10,7 +10,7 @@ permalink: /publications/
 \
 My publications are collected here along with links to the article, accepted version, and any relevant code.
 
-* Mannix, P.M.,**Skene, C.S.**, Auroux, D., and Marcotte, F. 'A robust, discrete-gradient descent procedure for optimisation with time-dependent PDE and norm constraints', The SMAI Journal of computational mathematics, 2024 [DOI (open access)<img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.5802/smai-jcm.104), [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2210.17194), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/mannixp/SphereManOpt)
+* Mannix, P.M., **Skene, C.S.**, Auroux, D., and Marcotte, F. 'A robust, discrete-gradient descent procedure for optimisation with time-dependent PDE and norm constraints', The SMAI Journal of computational mathematics, 2024 [DOI (open access)<img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.5802/smai-jcm.104), [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2210.17194), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/mannixp/SphereManOpt)
    <details><summary markdown="span">BibTex reference</summary>
    ```
    @article{Mannix_2024,
@@ -25,7 +25,7 @@ My publications are collected here along with links to the article, accepted ver
   ```
   </details>
 
-* **Skene, C.S.**, Tobias, S.M. 'Floquet stability and Lagrangian statistics of a nonlinear time-dependent ABC dynamo', Phys. Rev. Fluids, 2023 [DOI (open access)<img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1103/PhysRevFluids.8.083701), [Preprint available here](https://www.newton.ac.uk/event/dyt2/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/ABC-dynamo_FTLE)
+* **Skene, C.S.** and Tobias, S.M. 'Floquet stability and Lagrangian statistics of a nonlinear time-dependent ABC dynamo', Phys. Rev. Fluids, 2023 [DOI (open access)<img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1103/PhysRevFluids.8.083701), [Preprint available here](https://www.newton.ac.uk/event/dyt2/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/ABC-dynamo_FTLE)
   <details><summary markdown="span">BibTex reference</summary>
   ```
   @article{skene_tobias_2023,
@@ -76,9 +76,8 @@ My publications are collected here along with links to the article, accepted ver
   ```
   </details>
 
-* **Skene, C.S.**, Taira, K., 'Phase reduction analysis of periodic thermoacoustic oscillations in a Rijke tube', Journal of Fluid Mechanics, 2022 [DOI <img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://www.doi.org/10.1017/jfm.2021.1093), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/181924/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/phase-reduction_Rijke-tube)
+* **Skene, C.S.** and Taira, K., 'Phase reduction analysis of periodic thermoacoustic oscillations in a Rijke tube', Journal of Fluid Mechanics, 2022 [DOI <img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://www.doi.org/10.1017/jfm.2021.1093), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/181924/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/phase-reduction_Rijke-tube)
   <details><summary markdown="span">BibTex reference</summary>
-
   ```
   @article{skene_taira_2022,
   title={Phase-reduction analysis of periodic thermoacoustic oscillations in a Rijke tube},
@@ -94,7 +93,6 @@ My publications are collected here along with links to the article, accepted ver
 
 * **Skene, C.S.**, Eggl, M.F., and Schmid, P.J., 'A parallel-in-time approach for accelerating direct-adjoint studies', Journal of Computational Physics, 2021 [DOI <img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1016/j.jcp.2020.110033), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/173644/), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/parallel-in-time_direct-adjoint)
   <details><summary markdown="span">BibTex reference</summary>
-
   ```
   @article{Skene2021,
   title={A parallel-in-time approach for accelerating direct-adjoint studies},
@@ -108,7 +106,6 @@ My publications are collected here along with links to the article, accepted ver
 
 * **Skene, C.S.**, Qadri, U.A., and Schmid, P.J., 'Open-loop control of a global instability in a swirling jet by harmonic forcing: A weakly nonlinear analysis', Phys. Rev. Fluids, 2020 [DOI <img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1103/physrevfluids.5.053901), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/173625/)
   <details><summary markdown="span">BibTex reference</summary>
-
   ```
   @article{Skene2020,
   title = {Open-loop control of a global instability in a swirling jet by harmonic forcing: A weakly nonlinear analysis},
@@ -128,7 +125,6 @@ My publications are collected here along with links to the article, accepted ver
 
 * **Skene, C.S.** and Schmid, P.J., 'Adjoint-based parametric sensitivity analysis for swirling M-flames', Journal of Fluid Mechanics, 2019 [DOI <img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1017/jfm.2018.793), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/173624/)
   <details><summary markdown="span">BibTex reference</summary>
-
   ```
   @article{Skene2019,
   title="{Adjoint-based parametric sensitivity analysis for swirling M-flames}",
