@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Preprints
+title: In review
 permalink: /preprints/
 ---
 <!-- Print orcid id -->
@@ -8,7 +8,9 @@ permalink: /preprints/
 <!-- Collapsible code from https://www.endtoend.ai/tutorial/collapsible-code-blocks/ -->
 {::options parse_block_html="true" /}
 \
-Any papers currently under review that are available on a preprint server are collected here along with any relevant code.
+Any papers currently under review are collected here, together with links to preprints and any relevant code.
+
+* **Skene, C.S.**, Marcotte, F and Tobias, S.M. 'On nonlinear transitions, minimal seeds and exact solutions for the geodynamo', In review, 2024 
 
 * **Skene, C.S.** and Tobias, S.M. 'Weakly nonlinear analysis of the onset of convection in rotating spherical shells', In review, 2024 [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2408.15603), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/wnl-onset-convection)
     <details><summary markdown="span">BibTex reference</summary>
