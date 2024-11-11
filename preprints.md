@@ -10,7 +10,7 @@ permalink: /preprints/
 \
 Any papers currently under review are collected here, together with links to preprints and any relevant code.
 
-* **Skene, C.S.**, Marcotte, F. and Tobias, S.M. 'On nonlinear transitions, minimal seeds and exact solutions for the geodynamo', In review, 2024, [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2408.15603)  
+* **Skene, C.S.**, Marcotte, F. and Tobias, S.M. 'On nonlinear transitions, minimal seeds and exact solutions for the geodynamo', In review, 2024, [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2411.05499)  
     <details><summary markdown="span">BibTex reference</summary>
     ```
    @misc{skene_marcotte_2024,
