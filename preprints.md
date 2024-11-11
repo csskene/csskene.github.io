@@ -10,7 +10,20 @@ permalink: /preprints/
 \
 Any papers currently under review are collected here, together with links to preprints and any relevant code.
 
-* **Skene, C.S.**, Marcotte, F and Tobias, S.M. 'On nonlinear transitions, minimal seeds and exact solutions for the geodynamo', In review, 2024 
+* **Skene, C.S.**, Marcotte, F. and Tobias, S.M. 'On nonlinear transitions, minimal seeds and exact solutions for the geodynamo', In review, 2024, [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2408.15603)  
+    <details><summary markdown="span">BibTex reference</summary>
+    ```
+   @misc{skene_marcotte_2024,
+      title={On nonlinear transitions, minimal seeds and exact solutions for the geodynamo}, 
+      author={Skene, Calum S. and Marcotte, Florence and Tobias, Steven M.},
+      year={2024},
+      eprint={2411.05499},
+      archivePrefix={arXiv},
+      primaryClass={physics.flu-dyn},
+      url={https://arxiv.org/abs/2411.05499}, 
+   } 
+   ```
+   </details>
 
 * **Skene, C.S.** and Tobias, S.M. 'Weakly nonlinear analysis of the onset of convection in rotating spherical shells', In review, 2024 [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2408.15603), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/wnl-onset-convection)
     <details><summary markdown="span">BibTex reference</summary>
