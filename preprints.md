@@ -25,19 +25,4 @@ Any papers currently under review are collected here, together with links to pre
    ```
    </details>
 
-* **Skene, C.S.** and Tobias, S.M. 'Weakly nonlinear analysis of the onset of convection in rotating spherical shells', In review, 2024 [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2408.15603), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/wnl-onset-convection)
-    <details><summary markdown="span">BibTex reference</summary>
-    ```
-   @misc{skene2024,
-      title={Weakly nonlinear analysis of the onset of convection in rotating spherical shells}, 
-      author={Skene, Calum S. and Tobias, Steven M.},
-      year={2024},
-      eprint={2408.15603},
-      archivePrefix={arXiv},
-      primaryClass={physics.flu-dyn},
-      url={https://arxiv.org/abs/2408.15603}, 
-   }
-   ```
-   </details>
-
 {::options parse_block_html="false" /}
