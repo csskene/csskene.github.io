@@ -10,25 +10,26 @@ permalink: /publications/
 \
 My publications are collected here along with links to the article, accepted version, and any relevant code.
 
-* **Skene, C.S.** and Tobias, S.M. 'Weakly nonlinear analysis of the onset of convection in rotating spherical shells', Geophysical and Astrophysical Fluid Dynamics, In press, 2024 [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2408.15603), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/wnl-onset-convection)
+* **Skene, C.S.** and Tobias, S.M. 'Weakly nonlinear analysis of the onset of convection in rotating spherical shells', Geophysical and Astrophysical Fluid Dynamics, 2024 [DOI (open access)<img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.1080/03091929.2024.2439478), [Accepted Version <img src="https://eprints.whiterose.ac.uk/images/WRRO_logo_green.png" style="width:1em;">](https://eprints.whiterose.ac.uk/220518/), [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2408.15603), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/wnl-onset-convection)
     <details><summary markdown="span">BibTex reference</summary>
     ```
-   @misc{skene2024,
-      title={Weakly nonlinear analysis of the onset of convection in rotating spherical shells}, 
-      author={Skene, Calum S. and Tobias, Steven M.},
-      year={2024},
-      eprint={2408.15603},
-      archivePrefix={arXiv},
-      primaryClass={physics.flu-dyn},
-      url={https://arxiv.org/abs/2408.15603}, 
-   }
-   ```
+  @article{skene_tobias_2024,
+  author = {Calum S. Skene and Steven M. Tobias},
+  title = {Weakly nonlinear analysis of the onset of convection in rotating spherical shells},
+  journal = {Geophysical \& Astrophysical Fluid Dynamics},
+  volume = {0},
+  number = {0},
+  pages = {1--22},
+  year = {2024},
+  publisher = {Taylor \& Francis}
+  }
+  ```
    </details>
 
 * Mannix, P.M., **Skene, C.S.**, Auroux, D., and Marcotte, F. 'A robust, discrete-gradient descent procedure for optimisation with time-dependent PDE and norm constraints', The SMAI Journal of computational mathematics, 2024 [DOI (open access)<img src="https://production2.leeds.ac.uk/jaducdn//images/doi.png" style="width:1em;">](https://doi.org/10.5802/smai-jcm.104), [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2210.17194), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/mannixp/SphereManOpt)
    <details><summary markdown="span">BibTex reference</summary>
    ```
-   @article{Mannix_2024,
+   @article{mannix_2024,
      author = {Paul M. Mannix and Calum S. Skene and Didier Auroux and Florence Marcotte},
      title = {A robust, discrete-gradient descent procedure for optimisation with time-dependent {PDE} and norm constraints},
      journal = {The SMAI Journal of computational mathematics},
