@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Getting started with Dedalus v3 at Leeds"
+title:  "Getting started with Dedalus v3 at Leeds (ARC3/ ARC4)"
 date:   2024-03-01 10:00:00 +0000
 categories: tutorial
 ---
+
+> :memo: **Update from 2-Jan-2025**. These instructions are out of date and may not currently work. Since ARC3/ ARC4 is immanently about to be replaced by Aire, I will not be updating them. However, I'll keep this page up in case the general procedure of installing Dedalus through pip3 is useful. I'll provide updated instructions for Aire when it becomes available.
 
 Here is a quick guide describing how to setup a conda environment for [*Dedalus v3*](https://dedalus-project.readthedocs.io/en/latest/) on the [HPC](https://arcdocs.leeds.ac.uk/welcome.html) clusters *arc3* and *arc4* at Leeds. I'll describe the procedure for *arc4* and provide a summary of how it works for *arc3* (which is similar). I'll do my best to keep these instructions up to date as things change. Note, that these instructions are not the only way to install *Dedalus v3* on *arc3*/*arc4*, they are just the method that I know currently works.
 
