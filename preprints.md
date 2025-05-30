@@ -1,6 +1,6 @@
 ---
 layout: page
-title: In review
+title: Preprints
 permalink: /preprints/
 ---
 <!-- Print orcid id -->
@@ -8,7 +8,9 @@ permalink: /preprints/
 <!-- Collapsible code from https://www.endtoend.ai/tutorial/collapsible-code-blocks/ -->
 {::options parse_block_html="true" /}
 \
-Any papers currently under review are collected here, together with links to preprints and any relevant code.
+My current preprints are collected here
+
+* **Skene, C.S.** and Burns K.J. 'Fast automated adjoints for spectral PDE solvers', 2025, [Preprint](/assets/preprints/Skene_Burns_adjoints.pdf), [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/dedalus_adjoint_examples)
 
 * **Skene, C.S.**, Marcotte, F. and Tobias, S.M. 'On nonlinear transitions, minimal seeds and exact solutions for the geodynamo', In review, 2024, [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2411.05499)  
     <details><summary markdown="span">BibTex reference</summary>
