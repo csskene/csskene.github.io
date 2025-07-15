@@ -48,7 +48,7 @@ minima:
       icon: github
       url: "https://github.com/csskene"
     - title: X
-      icon: x
+      icon: x-twitter
       url: "https://x.com/CalumSkene"
     - title: Google Scholar
       icon: "google-scholar"
