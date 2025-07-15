@@ -53,6 +53,9 @@ minima:
     - title: Google Scholar
       icon: "google-scholar"
       url: "https://scholar.google.com/citations?user=IdiShGwAAAAJ&hl=en"
+    - title: Orcid
+      icon: "orcid"
+      url: "https://orcid.org/0000-0003-0994-2013"
 
 header_pages:
   - publications.md

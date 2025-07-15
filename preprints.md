@@ -3,12 +3,10 @@ layout: page
 title: Preprints
 permalink: /preprints/
 ---
-<!-- Print orcid id -->
-<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-0994-2013" href="https://orcid.org/0000-0003-0994-2013" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-0994-2013</a></div>
 <!-- Collapsible code from https://www.endtoend.ai/tutorial/collapsible-code-blocks/ -->
 {::options parse_block_html="true" /}
 \
-My current preprints are collected here
+My current preprints are collected here.
 
 * **Skene, C.S.** and Burns K.J. 'Fast automated adjoints for spectral PDE solvers', 2025, [Preprint <img src="https://static.arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png" style="width:1em;">](https://arxiv.org/abs/2506.14792) , [Code <img src="/assets/publications/github-mark-white.png" style="width:1em;">](https://github.com/csskene/dedalus_adjoint_examples)
    <details><summary markdown="span">BibTex reference</summary>
