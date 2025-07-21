@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Calum Skene
+tagline: Fluid Dynamicist
 author:
   name: C. S. Skene
   email: c.s.skene@leeds.ac.uk
