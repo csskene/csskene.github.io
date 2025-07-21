@@ -1,0 +1,43 @@
+preprints:
+  - title: Fast automated adjoints for spectral PDE solvers
+    authors:
+      - Skene, C.S.
+      - Burns, K.J.
+    year: 2025
+    status: Preprint
+    links:
+      - type: Preprint
+        url: https://arxiv.org/abs/2506.14792
+      - type: Code
+        url: https://github.com/csskene/dedalus_adjoint_examples
+    bibtex: |
+      @misc{skene_burns_2025,
+        title={Fast automated adjoints for spectral PDE solvers}, 
+        author={Calum S. Skene and Keaton J. Burns},
+        year={2025},
+        eprint={2506.14792},
+        archivePrefix={arXiv},
+        primaryClass={math.NA},
+        url={https://arxiv.org/abs/2506.14792}, 
+      }
+
+  - title: On nonlinear transitions, minimal seeds and exact solutions for the geodynamo
+    authors:
+      - Skene, C.S.
+      - Marcotte, F.
+      - Tobias, S.M.
+    year: 2024
+    status: In review
+    links:
+      - type: Preprint
+        url: https://arxiv.org/abs/2411.05499
+    bibtex: |
+      @misc{skene_marcotte_2024,
+        title={On nonlinear transitions, minimal seeds and exact solutions for the geodynamo}, 
+        author={Skene, Calum S. and Marcotte, Florence and Tobias, Steven M.},
+        year={2024},
+        eprint={2411.05499},
+        archivePrefix={arXiv},
+        primaryClass={physics.flu-dyn},
+        url={https://arxiv.org/abs/2411.05499}, 
+      }
