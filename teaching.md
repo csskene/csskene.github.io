@@ -9,7 +9,7 @@ I have taught courses at UCLA and the University of Leeds. I am also an Associat
 ---
 
 ## :gb: University of Leeds  
-### :robot: Data-Driven Fluid-Dynamics: COMP5455M (Postgraduate, Spring 2025)
+### :robot: Data-Driven Fluid-Dynamics: COMP5455M
 
 **:classical_building: Institution**: University of Leeds  
 **:calendar: Term**: Spring 2025  
@@ -24,7 +24,7 @@ This module provides an overview of data-driven techniques with fluid dynamics a
 ---
 
 ## :us: University of California, Los Angeles (UCLA)  
-### :ocean: Viscous and Turbulent Flows: 250B (Postgraduate, Spring 2020)
+### :ocean: Viscous and Turbulent Flows: 250B
 
 **:classical_building: Institution**: UCLA  
 **:calendar: Term**: Spring 2020   
