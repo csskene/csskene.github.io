@@ -65,6 +65,7 @@ header_pages:
   - publications.md
   - preprints.md
   - tutorials.md
+  - teaching.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
