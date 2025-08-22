@@ -1,4 +1,25 @@
 publications:
+  - title: On nonlinear transitions, minimal seeds and exact solutions for the geodynamo
+    authors:
+      - Skene, C.S.
+      - Marcotte, F.
+      - Tobias, S.M.
+    year: 2025
+    journal: Journal of Fluid Mechanics (in press)
+    links:
+      - type: Preprint
+        url: https://arxiv.org/abs/2411.05499
+    bibtex: |
+      @misc{skene_marcotte_2024,
+        title={On nonlinear transitions, minimal seeds and exact solutions for the geodynamo}, 
+        author={Skene, Calum S. and Marcotte, Florence and Tobias, Steven M.},
+        year={2025},
+        eprint={2411.05499},
+        archivePrefix={arXiv},
+        primaryClass={physics.flu-dyn},
+        url={https://arxiv.org/abs/2411.05499}, 
+      }
+
   - title: Weakly nonlinear analysis of the onset of convection in rotating spherical shells
     authors:
     - Skene, C.S.
