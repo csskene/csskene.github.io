@@ -5,8 +5,12 @@
 layout: home
 ---
 
-I am currently a postdoc at the University of Leeds. My research interests include hydrodynamic stability, adjoint methods, astrophysical fluid dynamics, turbulence, data-driven methods, and periodic flows. In my free time I enjoy making model planes, playing the guitar, and crochet. I was recently featured in the [LIFD Early Career Researcher spotlight](https://fluids.leeds.ac.uk/2022/04/26/lifd-early-career-researcher-spotlight-calum-skene/).
+I am currently a research fellow at the University of Edinburgh. My research interests include hydrodynamic stability, adjoint methods, astrophysical fluid dynamics, turbulence, data-driven methods, and periodic flows. In my free time I enjoy making model planes, playing the guitar, and crochet. I was recently featured in the [LIFD Early Career Researcher spotlight](https://fluids.leeds.ac.uk/2022/04/26/lifd-early-career-researcher-spotlight-calum-skene/).
 
+<center><a href="https://doi.org/10.1103/PhysRevFluids.8.083701"><img src="/assets/frontPage/FTLE.png" alt="Finite-time Lyapunov exponents of a wobbly ABC dynamo" width="50%"/></a></center>
+
+\\
+\\
 <!-- ![Join LIFD!](/assets/frontPage/LIFD.png =100x20) -->
 
 <center><a href="https://fluids.leeds.ac.uk"><img src="/assets/frontPage/LIFD.png" alt="Join LIFD" width="60%"/></a></center>
