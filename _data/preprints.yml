@@ -1,4 +1,26 @@
 preprints:
+  - title: Three-dimensional numerical simulations of neutron star cores in the two-fluid MHD approximation: simple configurations
+      authors:
+        - Igoshev, A.
+        - Moraga, N.A.
+        - Reisenegger, A. 
+        - Skene, C.S.
+        - Hollerbach, R.
+      year: 2025
+      status: Preprint
+      links:
+        - type: Preprint
+          url: https://arxiv.org/abs/2512.13408
+      bibtex: |
+        @misc{igoshev2025,
+        title={Three-dimensional numerical simulations of neutron star cores in the two-fluid MHD approximation: simple configurations}, 
+        author={Andrei Igoshev and Nicolás A. Moraga and Andreas Reisenegger and Calum S. Skene and Rainer Hollerbach},
+        year={2025},
+        eprint={2512.13408},
+        archivePrefix={arXiv},
+        primaryClass={astro-ph.HE},
+        url={https://arxiv.org/abs/2512.13408}, 
+      }
   - title: Fast automated adjoints for spectral PDE solvers
     authors:
       - Skene, C.S.
