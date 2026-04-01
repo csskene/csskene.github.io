@@ -7,20 +7,27 @@ publications:
     - Skene, C.S.
     - Hollerbach, R.
     year: 2026
-    journal: The Astrophysical Journal (in press)
+    journal: The Astrophysical Journal
     links:
+    - type: DOI
+      url: https://doi.org/10.3847/1538-4357/ae4d44
     - type: Preprint
       url: https://arxiv.org/abs/2512.13408
     bibtex: |
-      @misc{igoshev2025,
-        title={Three-dimensional numerical simulations of neutron star cores in the two-fluid MHD approximation: simple configurations}, 
-        author={Andrei Igoshev and Nicolás A. Moraga and Andreas Reisenegger and Calum S. Skene and Rainer Hollerbach},
-        year={2025},
-        eprint={2512.13408},
-        archivePrefix={arXiv},
-        primaryClass={astro-ph.HE},
-        url={https://arxiv.org/abs/2512.13408}, 
+      @article{Igoshev_2026,
+        doi = {10.3847/1538-4357/ae4d44},
+        url = {https://doi.org/10.3847/1538-4357/ae4d44},
+        year = {2026},
+        month = {mar},
+        publisher = {The American Astronomical Society},
+        volume = {1000},
+        number = {2},
+        pages = {291},
+        author = {Igoshev, Andrei and Moraga, Nicolás A. and Reisenegger, Andreas and Skene, Calum S. and Hollerbach, Rainer},
+        title = {Three-dimensional Numerical Simulations of Neutron Star Cores in the Two-fluid MHD Approximation: Simple Configurations},
+        journal = {The Astrophysical Journal},
       }
+
   - title: On nonlinear transitions, minimal seeds and exact solutions for the geodynamo
     authors:
       - Skene, C.S.
