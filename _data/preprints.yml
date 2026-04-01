@@ -10,7 +10,7 @@ preprints:
       - type: Preprint
         url: https://arxiv.org/abs/2603.29079
     bibtex: |
-      @misc{guseva2026datadrivendiscoverydynamocycle,
+      @misc{guseva_2026,
         title={Data-driven discovery of dynamo cycle equations}, 
         author={Anna Guseva and Calum Skene and Steve Tobias},
         year={2026},
