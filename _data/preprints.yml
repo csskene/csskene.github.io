@@ -19,25 +19,3 @@ preprints:
         primaryClass={astro-ph.SR},
         url={https://arxiv.org/abs/2603.29079}, 
       }
-
-  - title: Fast automated adjoints for spectral PDE solvers
-    authors:
-      - Skene, C.S.
-      - Burns, K.J.
-    year: 2025
-    status: Preprint
-    links:
-      - type: Preprint
-        url: https://arxiv.org/abs/2506.14792
-      - type: Code
-        url: https://github.com/csskene/dedalus_adjoint_examples
-    bibtex: |
-      @misc{skene_burns_2025,
-        title={Fast automated adjoints for spectral PDE solvers}, 
-        author={Calum S. Skene and Keaton J. Burns},
-        year={2025},
-        eprint={2506.14792},
-        archivePrefix={arXiv},
-        primaryClass={math.NA},
-        url={https://arxiv.org/abs/2506.14792}, 
-      }

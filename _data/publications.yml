@@ -1,4 +1,27 @@
 publications:
+  - title: Fast automated adjoints for spectral PDE solvers
+    authors:
+      - Skene, C.S.
+      - Burns, K.J.
+    year: 2026
+    links:
+      - type: DOI
+        url: https://doi.org/10.1073/pnas.2530440123
+      - type: Preprint
+        url: https://arxiv.org/abs/2506.14792
+      - type: Code
+        url: https://github.com/csskene/dedalus_adjoint_examples
+    bibtex: |
+      @article{Skene_Burns_2026,
+        author = {Calum S. Skene  and Keaton J. Burns },
+        title = {Fast automated adjoints for spectral PDE solvers},
+        journal = {Proceedings of the National Academy of Sciences},
+        volume = {123},
+        number = {15},
+        pages = {e2530440123},
+        year = {2026}
+      }
+
   - title: "Three-dimensional numerical simulations of neutron star cores in the two-fluid MHD approximation: simple configurations"
     authors:
     - Igoshev, A.
