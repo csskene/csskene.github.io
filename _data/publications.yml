@@ -1,9 +1,31 @@
 publications:
+  - title: Data-driven discovery of dynamo cycle equations
+    authors:
+      - Guseva, A.
+      - Skene, C.S.
+      - Tobias, S.M.
+    year: 2026
+    status: Preprint
+    links:
+      - type: Preprint
+        url: https://arxiv.org/abs/2603.29079
+    bibtex: |
+      @misc{guseva_2026,
+        title={Data-driven discovery of dynamo cycle equations},
+        author={Anna Guseva and Calum Skene and Steve Tobias},
+        year={2026},
+        eprint={2603.29079},
+        archivePrefix={arXiv},
+        primaryClass={astro-ph.SR},
+        url={https://arxiv.org/abs/2603.29079},
+      }
+
   - title: Fast automated adjoints for spectral PDE solvers
     authors:
       - Skene, C.S.
       - Burns, K.J.
     year: 2026
+    status: Published
     journal: Proceedings of the National Academy of Sciences
     links:
       - type: DOI
@@ -25,18 +47,19 @@ publications:
 
   - title: "Three-dimensional numerical simulations of neutron star cores in the two-fluid MHD approximation: simple configurations"
     authors:
-    - Igoshev, A.
-    - Moraga, N.A.
-    - Reisenegger, A. 
-    - Skene, C.S.
-    - Hollerbach, R.
+      - Igoshev, A.
+      - Moraga, N.A.
+      - Reisenegger, A.
+      - Skene, C.S.
+      - Hollerbach, R.
     year: 2026
+    status: Published
     journal: The Astrophysical Journal
     links:
-    - type: DOI
-      url: https://doi.org/10.3847/1538-4357/ae4d44
-    - type: Preprint
-      url: https://arxiv.org/abs/2512.13408
+      - type: DOI
+        url: https://doi.org/10.3847/1538-4357/ae4d44
+      - type: Preprint
+        url: https://arxiv.org/abs/2512.13408
     bibtex: |
       @article{Igoshev_2026,
         doi = {10.3847/1538-4357/ae4d44},
@@ -58,6 +81,7 @@ publications:
       - Marcotte, F.
       - Tobias, S.M.
     year: 2025
+    status: Published
     journal: Journal of Fluid Mechanics
     links:
       - type: DOI
@@ -67,31 +91,32 @@ publications:
       - type: Code
         url: https://github.com/csskene/on_nonlinear_transitions_geodynamo
     bibtex: |
-      @article{Skene_Marcotte_Tobias_2025, 
-        title={On nonlinear transitions, minimal seeds and exact solutions for the geodynamo}, 
-        volume={1021}, 
-        DOI={10.1017/jfm.2025.10639}, 
-        journal={Journal of Fluid Mechanics}, 
-        author={Skene, Calum S. and Marcotte, Florence and Tobias, Steven M.}, 
-        year={2025}, 
+      @article{Skene_Marcotte_Tobias_2025,
+        title={On nonlinear transitions, minimal seeds and exact solutions for the geodynamo},
+        volume={1021},
+        DOI={10.1017/jfm.2025.10639},
+        journal={Journal of Fluid Mechanics},
+        author={Skene, Calum S. and Marcotte, Florence and Tobias, Steven M.},
+        year={2025},
         pages={A37}
-      } 
+      }
 
   - title: Weakly nonlinear analysis of the onset of convection in rotating spherical shells
     authors:
-    - Skene, C.S.
-    - Tobias, S.M.
+      - Skene, C.S.
+      - Tobias, S.M.
     year: 2024
+    status: Published
     journal: Geophysical & Astrophysical Fluid Dynamics
     links:
-    - type: DOI
-      url: https://doi.org/10.1080/03091929.2024.2439478
-    - type: Accepted Version
-      url: https://eprints.whiterose.ac.uk/220518/
-    - type: Preprint
-      url: https://arxiv.org/abs/2408.15603
-    - type: Code
-      url: https://github.com/csskene/wnl-onset-convection
+      - type: DOI
+        url: https://doi.org/10.1080/03091929.2024.2439478
+      - type: Accepted Version
+        url: https://eprints.whiterose.ac.uk/220518/
+      - type: Preprint
+        url: https://arxiv.org/abs/2408.15603
+      - type: Code
+        url: https://github.com/csskene/wnl-onset-convection
     bibtex: |
       @article{skene_tobias_2024,
         author = {Calum S. Skene and Steven M. Tobias},
@@ -106,19 +131,20 @@ publications:
 
   - title: A robust, discrete-gradient descent procedure for optimisation with time-dependent PDE and norm constraints
     authors:
-    - Mannix, P.M.
-    - Skene, C.S.
-    - Auroux, D.
-    - Marcotte, F.
+      - Mannix, P.M.
+      - Skene, C.S.
+      - Auroux, D.
+      - Marcotte, F.
     year: 2024
+    status: Published
     journal: The SMAI Journal of Computational Mathematics
     links:
-    - type: DOI
-      url: https://doi.org/10.5802/smai-jcm.104
-    - type: Preprint
-      url: https://arxiv.org/abs/2210.17194
-    - type: Code
-      url: https://github.com/mannixp/SphereManOpt
+      - type: DOI
+        url: https://doi.org/10.5802/smai-jcm.104
+      - type: Preprint
+        url: https://arxiv.org/abs/2210.17194
+      - type: Code
+        url: https://github.com/mannixp/SphereManOpt
     bibtex: |
       @article{mannix_2024,
         author = {Paul M. Mannix and Calum S. Skene and Didier Auroux and Florence Marcotte},
@@ -129,20 +155,21 @@ publications:
         volume = {10},
         year = {2024}
       }
-      
+
   - title: Floquet stability and Lagrangian statistics of a nonlinear time-dependent ABC dynamo
     authors:
-    - Skene, C.S.
-    - Tobias, S.M.
+      - Skene, C.S.
+      - Tobias, S.M.
     year: 2023
+    status: Published
     journal: Physical Review Fluids
     links:
-    - type: DOI
-      url: https://doi.org/10.1103/PhysRevFluids.8.083701
-    - type: Preprint
-      url: https://www.newton.ac.uk/event/dyt2/
-    - type: Code
-      url: https://github.com/csskene/ABC-dynamo_FTLE
+      - type: Preprint
+        url: https://www.newton.ac.uk/event/dyt2/
+      - type: DOI
+        url: https://doi.org/10.1103/PhysRevFluids.8.083701
+      - type: Code
+        url: https://github.com/csskene/ABC-dynamo_FTLE
     bibtex: |
       @article{skene_tobias_2023,
         title = {Floquet stability and Lagrangian statistics of a nonlinear time-dependent ABC dynamo},
@@ -161,45 +188,47 @@ publications:
 
   - title: On the origin of quadrupole sound from a two-dimensional airfoil trailing edge
     authors:
-    - Kojima, Y.
-    - Skene, C.S.
-    - Yeh, C.-A.
-    - Taira, K.
-    - Kameda, M.
+      - Kojima, Y.
+      - Skene, C.S.
+      - Yeh, C.-A.
+      - Taira, K.
+      - Kameda, M.
     year: 2023
+    status: Published
     journal: Journal of Fluid Mechanics
     links:
-    - type: DOI
-      url: https://doi.org/10.1017/jfm.2023.37
-    - type: Code
-      url: https://github.com/niktFluid/OF-TEnoise-NACA0012
+      - type: DOI
+        url: https://doi.org/10.1017/jfm.2023.37
+      - type: Code
+        url: https://github.com/niktFluid/OF-TEnoise-NACA0012
     bibtex: |
-      @article{kojima_skene_yeh_taira_kameda_2023, 
-        title={On the origin of quadrupole sound from a two-dimensional aerofoil trailing edge}, 
-        volume={958}, 
-        DOI={10.1017/jfm.2023.37}, 
-        journal={Journal of Fluid Mechanics}, 
-        publisher={Cambridge University Press}, 
-        author={Kojima, Yoimi and Skene, Calum S. and Yeh, Chi-An and Taira, Kunihiko and Kameda, Masaharu}, 
-        year={2023}, 
+      @article{kojima_skene_yeh_taira_kameda_2023,
+        title={On the origin of quadrupole sound from a two-dimensional aerofoil trailing edge},
+        volume={958},
+        DOI={10.1017/jfm.2023.37},
+        journal={Journal of Fluid Mechanics},
+        publisher={Cambridge University Press},
+        author={Kojima, Yoimi and Skene, Calum S. and Yeh, Chi-An and Taira, Kunihiko and Kameda, Masaharu},
+        year={2023},
         pages={A3}
       }
 
   - title: Sparsifying the resolvent forcing mode via gradient-based optimisation
     authors:
-    - Skene, C.S.
-    - Yeh, C.-A.
-    - Schmid, P.J.
-    - Taira, K.
+      - Skene, C.S.
+      - Yeh, C.-A.
+      - Schmid, P.J.
+      - Taira, K.
     year: 2022
+    status: Published
     journal: Journal of Fluid Mechanics
     links:
-    - type: DOI
-      url: https://doi.org/10.1017/jfm.2022.519
-    - type: Accepted Version
-      url: https://eprints.whiterose.ac.uk/188910/
-    - type: Code
-      url: https://github.com/csskene/linear-analysis-tools
+      - type: DOI
+        url: https://doi.org/10.1017/jfm.2022.519
+      - type: Accepted Version
+        url: https://eprints.whiterose.ac.uk/188910/
+      - type: Code
+        url: https://github.com/csskene/linear-analysis-tools
     bibtex: |
       @article{skene_yeh_schmid_taira_2022,
         title={Sparsifying the resolvent forcing mode via gradient-based optimisation},
@@ -214,17 +243,18 @@ publications:
 
   - title: Phase reduction analysis of periodic thermoacoustic oscillations in a Rijke tube
     authors:
-    - Skene, C.S.
-    - Taira, K.
+      - Skene, C.S.
+      - Taira, K.
     year: 2022
+    status: Published
     journal: Journal of Fluid Mechanics
     links:
-    - type: DOI
-      url: https://www.doi.org/10.1017/jfm.2021.1093
-    - type: Accepted Version
-      url: https://eprints.whiterose.ac.uk/181924/
-    - type: Code
-      url: https://github.com/csskene/phase-reduction_Rijke-tube
+      - type: DOI
+        url: https://www.doi.org/10.1017/jfm.2021.1093
+      - type: Accepted Version
+        url: https://eprints.whiterose.ac.uk/181924/
+      - type: Code
+        url: https://github.com/csskene/phase-reduction_Rijke-tube
     bibtex: |
       @article{skene_taira_2022,
         title={Phase-reduction analysis of periodic thermoacoustic oscillations in a Rijke tube},
@@ -239,18 +269,19 @@ publications:
 
   - title: A parallel-in-time approach for accelerating direct-adjoint studies
     authors:
-    - Skene, C.S.
-    - Eggl, M.F.
-    - Schmid, P.J.
+      - Skene, C.S.
+      - Eggl, M.F.
+      - Schmid, P.J.
     year: 2021
+    status: Published
     journal: Journal of Computational Physics
     links:
-    - type: DOI
-      url: https://doi.org/10.1016/j.jcp.2020.110033
-    - type: Accepted Version
-      url: https://eprints.whiterose.ac.uk/173644/
-    - type: Code
-      url: https://github.com/csskene/parallel-in-time_direct-adjoint
+      - type: DOI
+        url: https://doi.org/10.1016/j.jcp.2020.110033
+      - type: Accepted Version
+        url: https://eprints.whiterose.ac.uk/173644/
+      - type: Code
+        url: https://github.com/csskene/parallel-in-time_direct-adjoint
     bibtex: |
       @article{Skene2021,
         title={A parallel-in-time approach for accelerating direct-adjoint studies},
@@ -263,16 +294,17 @@ publications:
 
   - title: "Open-loop control of a global instability in a swirling jet by harmonic forcing: A weakly nonlinear analysis"
     authors:
-    - Skene, C.S.
-    - Qadri, U.A.
-    - Schmid, P.J.
+      - Skene, C.S.
+      - Qadri, U.A.
+      - Schmid, P.J.
     year: 2020
+    status: Published
     journal: Physical Review Fluids
     links:
-    - type: DOI
-      url: https://doi.org/10.1103/physrevfluids.5.053901
-    - type: Accepted Version
-      url: https://eprints.whiterose.ac.uk/173625/
+      - type: DOI
+        url: https://doi.org/10.1103/physrevfluids.5.053901
+      - type: Accepted Version
+        url: https://eprints.whiterose.ac.uk/173625/
     bibtex: |
       @article{Skene2020,
         title = {Open-loop control of a global instability in a swirling jet by harmonic forcing: A weakly nonlinear analysis},
@@ -291,15 +323,16 @@ publications:
 
   - title: Adjoint-based parametric sensitivity analysis for swirling M-flames
     authors:
-    - Skene, C.S.
-    - Schmid, P.J.
+      - Skene, C.S.
+      - Schmid, P.J.
     year: 2019
+    status: Published
     journal: Journal of Fluid Mechanics
     links:
-    - type: DOI
-      url: https://doi.org/10.1017/jfm.2018.793
-    - type: Accepted Version
-      url: https://eprints.whiterose.ac.uk/173624/
+      - type: DOI
+        url: https://doi.org/10.1017/jfm.2018.793
+      - type: Accepted Version
+        url: https://eprints.whiterose.ac.uk/173624/
     bibtex: |
       @article{Skene2019,
         title={Adjoint-based parametric sensitivity analysis for swirling {M}-flames},
@@ -308,5 +341,5 @@ publications:
         publisher={Cambridge University Press},
         author={Skene, C.S. and Schmid, P.J.},
         year={2019},
-        pages={516–542}
+        pages={516-542}
       }
