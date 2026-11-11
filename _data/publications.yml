@@ -1,4 +1,28 @@
 publications:
+  - title: Purely elastic centre-mode instability in channel and pipe flows of a simplified Phan-Thien--Tanner fluid
+    authors:
+      - Skene, C.S.
+      - Oishi, J.S.
+      - Burns, K.J.
+      - Linkmann, M.
+      - Vasil, G.M.
+      - Morozov, A.
+    year: 2026
+    status: Preprint
+    links:
+      - type: Preprint
+        url: https://arxiv.org/abs/2611.14104
+    bibtex: |
+      @misc{Skene_2026,
+        title={Purely elastic centre-mode instability in channel and pipe flows of a simplified Phan-Thien-Tanner fluid}, 
+        author={Calum S. Skene and Jeffrey S. Oishi and Keaton J. Burns and Moritz Linkmann and Geoffrey M. Vasil and Alexander Morozov},
+        year={2026},
+        eprint={2611.14104},
+        archivePrefix={arXiv},
+        primaryClass={physics.flu-dyn},
+        url={https://arxiv.org/abs/2611.14104}, 
+      }
+
   - title: Data-driven discovery of dynamo cycle equations
     authors:
       - Guseva, A.
